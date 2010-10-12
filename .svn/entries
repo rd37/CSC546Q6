@@ -1,0 +1,70 @@
+8
+
+dir
+482
+svn://vmcgs15.phys.uvic.ca/CSC546Q5
+svn://vmcgs15.phys.uvic.ca
+
+
+
+2010-10-12T18:23:38.527325Z
+482
+rd
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+00a05da4-f4d2-45f7-a9e4-8fcc9f8859cd
+
+.classpath
+file
+483
+
+
+
+2010-10-02T23:23:55.244037Z
+c5eff5b051e19c03bd7d32076400606c
+2010-10-12T18:23:58.052285Z
+483
+rd
+
+.project
+file
+483
+
+
+
+2010-10-02T23:23:55.228437Z
+885a9332032333612e5b30ce44b3776c
+2010-10-12T18:23:58.052285Z
+483
+rd
+
+src
+dir
+
+README
+file
+483
+
+
+
+2010-10-06T00:08:55.084902Z
+ccd422d6abf2fa75dc6941fa2982c8ca
+2010-10-12T18:23:58.052285Z
+483
+rd
+
+.settings
+dir
+

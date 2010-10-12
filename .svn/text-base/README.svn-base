@@ -1,0 +1,16 @@
+once compiled, I used eclipse ide, but 'javac CSC546Ass1' should suffice
+
+to use,
+
+java CSC546Ass1 5  3  0.1 76654
+
+where '5' is the number of samples
+3 is number of computers and 0.1 is probability a computer will attempt to transmit.
+and '76654' is the start seed.
+
+the output will be the average number of time slots 
+it took so k computers all successfully send 1 packet.
+
+note the slots start at slot 0.  So for 1 computer with probability 1 of transmitting will 
+give a result of 0 slots, since it will successfully transmit in the first slot.  This is consistent 
+with question 6 of which I verified my equation with the simulator.
