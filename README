@@ -14,3 +14,5 @@ it took so k computers all successfully send 1 packet.
 note the slots start at slot 0.  So for 1 computer with probability 1 of transmitting will 
 give a result of 0 slots, since it will successfully transmit in the first slot.  This is consistent 
 with question 6 of which I verified my equation with the simulator.
+
+made a change from rigi
