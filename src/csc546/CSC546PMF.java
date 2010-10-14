@@ -124,10 +124,21 @@ public class CSC546PMF {
 	 */
 	public static void main(String[] args) {
 		CSC546PMF pmf = new CSC546PMF();
-		for(int i=0;i<30;i++){
-			double d=pmf.getPMF(i, 3, 0.333);
-			System.out.println(i+": "+d+":");
+		int timeslots = (new Integer(args[0])).intValue();
+		int k = (new Integer(args[1])).intValue();
+		double probability=(new Double(args[2]));
+		double expectation=0;
+		double expectationSq=0;
+		for(int i=0;i<timeslots;i++){
+			double d=pmf.getPMF(i, k, probability);
+			//
+			System.out.print(d+" ");
+			expectation+=(i*d);
+			expectationSq+=(Math.pow((double)i,2.0))*d;
 		}
+		System.out.println("E[X]="+expectation);
+		//System.out.println(""+expectationSq+"-"+Math.pow(expectation, 2.0));
+		System.out.println("SD="+Math.pow((expectationSq-Math.pow(expectation, 2.0)),0.5));
 		//double choice = pmf.getChoice(25,8);
 		//double d=pmf.getPMF(5, 3, 0.1);
 		//System.out.println("choice:"+choice);
